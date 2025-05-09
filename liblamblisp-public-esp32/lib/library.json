@@ -1,0 +1,14 @@
+{
+ "name": "liblamblisp-public",
+ "authors": { "name": "William A. White III" },
+ "copyright"" "Copyright 2025 Frobenius Norm LLC",
+ "version": "0.0.1",
+ "platforms": [ "espressif32" ],
+ "frameworks": "*",
+ "build": {
+  "flags": [
+   "-L.",
+   "-llamblisp"
+   ]
+  }
+}
